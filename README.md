@@ -72,7 +72,7 @@ git add notas.txt
 git commit -m "feat: linha que vou reverter"
 git push origin practice/seu-nome
 
-git revert HEAD -m "revert: remove linha indesejada"
+git revert HEAD --no-edit
 git push origin practice/seu-nome
 ```
 
